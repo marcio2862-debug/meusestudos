@@ -223,7 +223,6 @@ document.addEventListener('click',function(event){
 },true);
 
 render();
-})();
 
 
 // Editor universal por campo: texto, imagens locais, colagem e links (várias páginas).
@@ -341,3 +340,5 @@ window._mixedNewId=uid();const oldMixedStart=mixedStart;
 $('#error-scope').addEventListener('change',()=>render());
 $('#clear-error-filter').addEventListener('click',()=>{window._errorLinkFilter='';render()});
 
+
+})();
